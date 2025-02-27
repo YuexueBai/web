@@ -1,0 +1,49 @@
+/* index.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding-top: 50px;
+}
+
+a {
+    display: inline-block;
+    margin: 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #fff;
+    background-size: contain; /* 修改这一行 */
+    background-position: center;
+    background-repeat: no-repeat; /* 确保背景图片不重复 */
+    transition: transform 0.3s ease;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
+
+/* 为每个游戏链接添加背景图片 */
+a[href="tetris/tetris.html"] {
+    background-image: url('tetris/resources/tetris.svg');
+}
+
+a[href="fruit ninja/fruit ninja.html"] {
+    background-image: url('fruit ninja/resources/fruit ninja.svg');
+}
+
+a[href="warcraft/warcraft.html"] {
+    background-image: url('warcraft/resources/warcraft.svg');
+}
+
+/* 假设推箱子和贪吃蛇游戏的链接样式 */
+a[href="pushbox/pushbox.html"] {
+    background-image: url('pushbox/resources/pushbox.svg');
+}
+
+a[href="snake/snake.html"] {
+    background-image: url('snake/resources/snake.svg');
+}

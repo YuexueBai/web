@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学生管理系统</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>简易学生管理系统</h1>
+        <form id="studentForm">
+            <label for="number">学号:</label>
+            <input type="number" id="number" name="number" required>
+
+            <label for="name">姓名:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="major">专业:</label>
+            <input type="text" id="major" name="major" required>
+
+            <label for="union_code">统一认证码:</label>
+            <input type="number" id="union_code" name="union_code" required>
+        </form>
+        <div class="button-container">
+            <button onclick="add()">添加学生</button>
+            <button onclick="sub()">删除学生</button>
+            <button onclick="update()">更改学生信息</button>
+            <button onclick="query()">查询学生信息</button>
+            <button onclick="clearList()">清空操作记录</button>
+        </div>
+        <h2>学生列表</h2>
+        <table id="studentTable">
+            <tr>
+                <th>学号</th>
+                <th>姓名</th>
+                <th>专业</th>
+                <th>统一认证码</th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

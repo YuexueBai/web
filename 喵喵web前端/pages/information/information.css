@@ -1,0 +1,75 @@
+/* 全局样式 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* 头部样式 */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* 主内容样式 */
+main {
+    padding: 20px;
+}
+
+.thread-list {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.thread {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.thread h2 {
+    margin: 0 0 10px 0;
+}
+
+.thread-info {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.thread-info span {
+    margin-right: 15px;
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

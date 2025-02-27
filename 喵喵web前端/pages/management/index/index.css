@@ -1,0 +1,48 @@
+body {
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+form {
+    margin-top: 20px;
+}
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color: #f5f5f5;}
+.button-container {
+    text-align: center; /* 使按钮水平居中 */
+}
+.button-container button {
+    border: none;
+    width: 200px; /* 设置按钮宽度 */
+    height: 50px; /* 设置按钮高度 */
+    margin-right: 10px; /* 设置按钮之间的间隔 */
+    font-size: 16px; /* 设置按钮文字大小 */
+    background-color: #4CAF50;
+    color:white
+}
+.button-container button:last-child {
+    margin-right: 0; /* 最后一个按钮不需要右边距 */
+}
